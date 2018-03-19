@@ -22,4 +22,8 @@ attr_accessor :songs, :guests_in_room
     @guests_in_room.clear
   end
 
+  def add_song(song)
+    @songs << song
+  end
+
 end
